@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Web Desing</title>
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--GOOGLE FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+
+
+            <a class="navbar-brand" href="/">
+                <img src="img/LogoMakr_4YvQyG.png" width="50px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#header">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info-one">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <header id="header">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="header-content-left">
+                        <img src="img/image1.png" alt="smartphone">
+                    </div>
+                </div>
+                <div class="col-md-6 my-auto">
+                    <div class="header-content-right">
+                        <h1 class="display-4"><!--Con display-4 se agranda la letra del titulo.--> Smarphone Samsung</h1>
+                        <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate nihil neque dignissimos quas fugiat tenetur eaque odio repellat sint, corrupti repellendus amet nobis eveniet hic aspernatur culpa nesciunt placeat obcaecati.</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg mt-2 header-btn">Leer más...</a> <!--Con esta clase btn-outline-secondary, convertimos la etiqueta a en un boton. Luego con el btn-lg se agranda el boton.-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!--TESTIMONIAL-->
+
+    <section id="testimonial"> 
+        <div class="container">
+          <p class=" h2 mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nulla culpa nostrum eos magni, delectus ipsam rem sed! Esse molestiae quae doloribus quam, fugit nostrum at hic porro tempore ut.</p>  
+          <p class="h4">-Francisco Olivares</p>
+
+        </div>
+
+    </section>
+
+    <!--INFO ONE-->
+
+    <section id="info-one">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info-left">
+                        <img src="img/image2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 my-auto"><!--my-auto se alinean automáticamente la foto con el texto-->
+                    <div class="info-right">
+                        <h2 class="display-4">Smartphone Acer</h2>
+                        <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatem pariatur maxime dolorum magni, perspiciatis incidunt odit, iure consectetur, quae deleniti qui debitis commodi exercitationem quaerat! Sapiente qui aspernatur molestias!</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg mt-2">Leer más...</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--INFO TWO-->
+
+    <section id="info-two" >
+        <div class="container">
+            <div class="row ">
+                <div class="col-md 6">
+                    <h2 class="mt-3">Lorem, ipsum dolor.</h2>
+                    <p mb-5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut reiciendis doloremque illum voluptatem eos veniam. Illum consectetur sed blanditiis, officiis asperiores perferendis adipisci, laudantium inventore nostrum voluptas laborum optio saepe.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mt-3">Lorem, ipsum dolor.</h2>
+                    <p mb-5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ut iste officia officiis perspiciatis optio quisquam mollitia autem. Eos dignissimos nesciunt eligendi quidem sint culpa illo quae nostrum impedit quo!</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer id="contact">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-5 my-5"><!-- my- 5 margen arriba y abajo-->
+                <form  class="card">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre"class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Correo" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <textarea cols="30" rows="10" placeholder="Mensaje" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-secondary btn-block">Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    margin-top: 75px;
+}
+
+
+
+
+.header-content-left img{
+    width: 100%;
+} 
+
+#testimonial{
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;/*50px arriba 0 derecha y 30 px abajo 0 izquierda*/
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.info-left img{
+    width: 100%;
+}
+
+#info-two{
+    background: #f1f1f1;
+    text-align: justify;
+}
+
+#info-two h2{
+    text-align: center;
+}
+
+footer{
+    background: url(../img/PC\ 6000x4000.jpg);
+    background-size: cover;
+ 
+    min-height: 700px;
+    
+}
